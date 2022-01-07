@@ -268,6 +268,3 @@ perm = [6, 14, 15, 1, 8, 2, 11, 5, 9, 12, 7, 10, 4, 0, 13, 3]
 print_puzzle(perm)
 
 perform_rotation(perm, sol, perm.index(15), true, 0.15)
-
-#print cycle_normal_form(cycle_composition(transposition_decomposition(perm)), 10, 11)
-
